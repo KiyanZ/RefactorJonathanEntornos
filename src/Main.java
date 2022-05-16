@@ -14,10 +14,10 @@ public class Main {
             }
             System.out.print(i+1+"\t");
         }
-        extracted(dato, primos);
+        vector(dato, primos);
     }
 
-    private static void extracted(int dato, Primos primos) {
+    private static void vector(int dato, Primos primos) {
         int[] vector;
         vector= primos.generarPrimos(dato);
         System.out.println("\nVector de primos hasta:"+ dato);
